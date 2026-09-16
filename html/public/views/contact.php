@@ -9,7 +9,7 @@
               <input type="email" id="email" name="email" required>
               <label for="bericht">Bericht</label>
               <textarea id="bericht" name="bericht" rows="5" required></textarea>
-              <button type="submit">Verstuur</button>
+              <button type="submit" action="process-beta.php" method="POST">Verstuur</button>
             </form>
           </div>
         </div>

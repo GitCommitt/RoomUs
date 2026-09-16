@@ -18,7 +18,7 @@
           </div>
         </div>
       </section>
-      <section class="how-section">
+      <section id="how-section" class="how-section">
         <h2 class="section-title">Hoe werkt het?</h2>
         <div class="how-row">
           <div class="how-card">
@@ -27,12 +27,12 @@
             <p>Vertel wie je bent en wat je zoekt. Hoe meer je deelt, hoe beter RoomUs je matcht.</p>
           </div>
           <div class="how-card">
-            <div class="how-step">02</div>
+            <div class="how-step"><p class="number">02</p></div>
             <h4>Swipe op huisgenoten</h4>
             <p>Bekijk profielen en swipe op mensen die passen bij jouw woonwensen en doelen.</p>
           </div>
           <div class="how-card">
-            <div class="how-step">03</div>
+            <div class="how-step"><p class="number">03</p></div>
             <h4>Match en Chat</h4>
             <p>Is er een match? Chat direct, deel kamers en plan samen jullie verhuizing in RoomUs.</p>
           </div>

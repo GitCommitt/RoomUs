@@ -27,16 +27,16 @@ class RoomPair
 }
 $reviews = [
     new RoomPair(
-    new RoomPerson("Milie", "../img/a-milie.png", "Via RoomUs heb ik Tom gevonden. We zijn nu goede vrienden en wonen samen in een superleuk huis! De app is overzichtelijk en het swipen werkt snel.") , 
-    new RoomPerson("Tom", "../img/a-tom.png", "RoomUs maakt het makkelijk om een fijne huisgenoot te vinden. Ik ben blij met mijn nieuwe woning en het contact met Milie was meteen gezellig.")),
+    new RoomPerson("Milie", "./img/a-milie.png", "Via RoomUs heb ik Tom gevonden. We zijn nu goede vrienden en wonen samen in een superleuk huis! De app is overzichtelijk en het swipen werkt snel.") , 
+    new RoomPerson("Tom", "./img/a-tom.png", "RoomUs maakt het makkelijk om een fijne huisgenoot te vinden. Ik ben blij met mijn nieuwe woning en het contact met Milie was meteen gezellig.")),
     
     new RoomPair(
-    new RoomPerson("Mo", "../img/a-mo.png", "Het swipen was makkelijk en leuk. Dankzij RoomUs heb ik mijn ideale kamer en een gezellige roommate gevonden. Echt een aanrader voor studenten!") , 
-    new RoomPerson("Emma", "../img/a-emma.png", "Ik vond Mo via RoomUs en het klikte meteen. We wonen nu samen en hebben het super naar ons zin. De service is top!")),
+    new RoomPerson("Mo", "./img/a-mo.png", "Het swipen was makkelijk en leuk. Dankzij RoomUs heb ik mijn ideale kamer en een gezellige roommate gevonden. Echt een aanrader voor studenten!") , 
+    new RoomPerson("Emma", "./img/a-emma.png", "Ik vond Mo via RoomUs en het klikte meteen. We wonen nu samen en hebben het super naar ons zin. De service is top!")),
     
     new RoomPair(
-    new RoomPerson("Peter", "../img/a-peter.png", "RoomUs heeft het zoeken naar een kamer echt leuk gemaakt. Sam en ik zijn een topmatch en het platform is heel gebruiksvriendelijk.") , 
-    new RoomPerson("Sam", "../img/a-sam.png", "Dankzij RoomUs heb ik Peter leren kennen. We zijn nu goede vrienden en delen samen een mooi appartement."))
+    new RoomPerson("Peter", "./img/a-peter.png", "RoomUs heeft het zoeken naar een kamer echt leuk gemaakt. Sam en ik zijn een topmatch en het platform is heel gebruiksvriendelijk.") , 
+    new RoomPerson("Sam", "./img/a-sam.png", "Dankzij RoomUs heb ik Peter leren kennen. We zijn nu goede vrienden en delen samen een mooi appartement."))
 ]
 ;
 

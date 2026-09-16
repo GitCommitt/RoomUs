@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 75%;
 }
 
 body {
@@ -13,7 +13,7 @@ h1{
     font-family: "hagrid-text", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 6rem;
+    font-size: 7rem;
     color: #1a202c;
 }
 
@@ -21,14 +21,14 @@ h2{
     font-family: "hagrid-text", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 4.6rem;
 }
 
 p{
     font-family: "hagrid-text", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #1a202c;
 }
 
@@ -62,7 +62,7 @@ nav .wrapper {
   margin: 20px;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,0.08));
 }
-
+ 
 .wrapper .nav-links {
   display: flex;
   align-items: center;
@@ -102,6 +102,12 @@ nav .wrapper {
   background: linear-gradient(90deg, #0098c2 0%, #0041aa 100%);
   color: #ffffff;
   box-shadow: 0 4px 24px rgba(67, 233, 123, 0.18);
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
 }
 
 .fullscreen-bg {
@@ -176,7 +182,7 @@ nav .wrapper {
 }
 
 .section-title {
-  font-size: 3.5rem;
+  font-size: 4.4rem;
   color: #1a202c;
   margin: 4rem 0 2rem 0;
   text-align: center;
@@ -225,7 +231,7 @@ nav .wrapper {
 }
 
 .topic-card p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #1a202c;
 }
 
@@ -259,13 +265,14 @@ nav .wrapper {
   position: absolute;
   top: 2rem;
   left: 2rem;
-  background: linear-gradient(360deg, #ddc7af56 0%, black 100%);
-  color: #fff;
-  font-size: 2rem;
-  font-weight: 900;
-  border-radius: 1.2rem;
-  padding: 0.6rem 1.4rem;
-  box-shadow: 0 2px 12px rgba(0, 198, 251, 0.12);
+  font-family: "hagrid-text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem; 
+  color: #1a202c;
+  padding: 5px;
+  border: 2.5px solid black;
+  border-radius: 30%;
 }
 
 .how-card h4 {
@@ -278,7 +285,7 @@ nav .wrapper {
 }
 
 .how-card p {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #1a202c;
 }
 
@@ -349,6 +356,7 @@ nav .wrapper {
   object-fit: cover;
   border-radius: 1rem;
   margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
@@ -361,7 +369,7 @@ nav .wrapper {
 }
 
 .review-user {
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #1a202c;
   font-weight: 800;
 }
@@ -460,26 +468,27 @@ nav .wrapper {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  align-items: flex-end;
+  align-content: flex-end;
 }
 
 .contact-col {
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-form {
   background: rgb(235, 203, 161);
   border-radius: 1.2rem;
   box-shadow: 0 12px 40px rgba(0,0,0,0.08);
-  padding: 2.6rem;
+  padding: 4rem;
   width: 100%;
-  max-width: 560px;
-  min-width: 320px;
+  max-width: 800px;
+  min-width: 400px;
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 2rem;
 }
 
 .contact-form h3 {
@@ -488,10 +497,11 @@ nav .wrapper {
   margin-bottom: 1rem;
   font-family: "hagrid-text", sans-serif;
   font-weight: 700;
+  justify-content: center;
 }
 
 .contact-form label {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #1a202c;
   font-weight: 600;
   font-family: "hagrid-text", sans-serif;
@@ -499,14 +509,19 @@ nav .wrapper {
 
 .contact-form input,
 .contact-form textarea {
-  font-size: 1.6rem;
-  padding: 1rem;
+  font-size: 1.8rem;
+  padding: 1.5rem;
   border-radius: 0.8rem;
   border: 1px solid #e2e8f0;
   background: #f9e7d2;
   font-family: "hagrid-text", sans-serif;
   margin-bottom: 0.5rem;
   resize: none;
+  width: 100%;
+}
+
+.contact-form textarea {
+  min-height: 180px;
 }
 
 .contact-form button {
@@ -541,15 +556,15 @@ nav .wrapper {
 .contact-section{
   padding: 4rem 2rem 6rem 2rem;
   border-radius: 2rem;
+  width: 1400px;
   max-width: 1400px;
   margin: 4rem auto 0 auto;
-  flex: 1;
+  flex: 2;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  gap: 1.2rem;
 }
 
 .site-footer {
@@ -628,89 +643,83 @@ nav .wrapper {
 
 .footer-bottom p {
   color: #969696;
+  font-size: 2rem;
 }
 
 .info-footer {
   color: rgb(179, 178, 178);
+  font-size: 2rem;
+}
+
+.beta-container {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f9e7d2 0%, #ffffff 100%);
+}
+
+.beta-content {
+    background: #ffffff29;
+    padding: 4rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.beta-content h1 {
+    font-size: 3.6rem;
+    color: #1a202c;
+    margin-bottom: 1.5rem;
+}
+
+.beta-content p {
+    font-size: 1.8rem;
+    color: #4a5568;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+}
+
+.beta-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.beta-form input {
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 2px solid #e2e8f0;
+    background: #f9e7d2;
+}
+
+.beta-form button {
+    background: linear-gradient(90deg, #00c6fb 0%, #005bea 100%);
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.beta-form button:hover {
+    transform: scale(1.02);
+}
+
+p .number{
+  color: white;
 }
 
 @media (max-width: 900px) {
-  .topics-row, .how-row {
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-  }
-  .swipe-review-row {
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-  }
-  .swipe-review-img {
-    max-width: 90vw;
-    height: auto;
-  }
-  .swipe-double-card {
-    width: 75%;
-    padding: 2rem 1rem 1.5rem 1rem;
-  }
-  .swipe-double-persons {
-    flex-direction: column;
-    gap: 0;
-    align-items: center;
-  }
-  .swipe-divider {
-    width: 80px;
-    height: 2px;
-    margin: 1rem 0;
-  }
-  .swipe-review-img {
-    width: 80px;
-    height: 80px;
-  }
-}
-
-@media (max-width: 1100px) {
-  .review-contact-row {
-    flex-direction: column;
-    gap: 3rem;
-    align-items: center;
-  }
-  .swipe-review-col {
-    align-items: center;
-  }
-  .contact-col {
-    justify-content: center;
-    width: 100%;
-  }
-  .contact-form {
-    max-width: 95vw;
-  }
-
-  .card-3{
-    flex-direction: column;
-    gap: 2.4rem;
-    padding: 0 1.6rem;
-  }
-  .swipe-review-section,
-  .contact-section {
-    width: 100%;
-    flex: none;
-    margin: 0 auto;
-  }
-  .contact-form {
-    max-width: 95vw;
-    padding: 1.8rem;
-  }
-  .swipe-double-card {
-    max-width: 100%;
-  }
-  .swipe-divider {
-    height: 2px;
-    width: 80px;
-    margin: 1rem 0;
-  }
-  .footer-inner { gap: 1rem; }
-  .footer-photos img { width: 60px; height: 44px; }
-  .social-links img { width: 30px; height: 30px; }
-  .footer-col { min-width: 100%; }
+  nav .nav-links li a { font-size: 2.6rem; }
+  .section-title { font-size: 3.8rem; }
+  h1 { font-size: 5.4rem; }
+  p, .topic-card p, .how-card p, .swipe-review-text, .contact-form label { font-size: 1.9rem; }
 }
